@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - Price Glance Apple Watch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Price Glance Apple Watch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Price Glance Apple Watch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>3B2F31B11B2526DA00BCBE46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B2F31D11B2526F100BCBE46</key>
 		<dict>
 			<key>primary</key>
 			<true/>
