@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2F31A01B2526DA00BCBE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F319F1B2526DA00BCBE46 /* AppDelegate.swift */; };
+		3B2F31A31B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F31A11B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodeld */; };
+		3B2F31A51B2526DA00BCBE46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F31A41B2526DA00BCBE46 /* ViewController.swift */; };
+		3B2F31A81B2526DA00BCBE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F31A61B2526DA00BCBE46 /* Main.storyboard */; };
+		3B2F31AA1B2526DA00BCBE46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F31A91B2526DA00BCBE46 /* Images.xcassets */; };
+		3B2F31AD1B2526DA00BCBE46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B2F31AB1B2526DA00BCBE46 /* LaunchScreen.xib */; };
+		3B2F31B91B2526DA00BCBE46 /* Price_Glance_Apple_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F31B81B2526DA00BCBE46 /* Price_Glance_Apple_WatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B2F31B31B2526DA00BCBE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2F31921B2526DA00BCBE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2F31991B2526DA00BCBE46;
+			remoteInfo = "Price Glance Apple Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B2F319A1B2526DA00BCBE46 /* Price Glance Apple Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Price Glance Apple Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2F319E1B2526DA00BCBE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2F319F1B2526DA00BCBE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B2F31A21B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Price_Glance_Apple_Watch.xcdatamodel; sourceTree = "<group>"; };
+		3B2F31A41B2526DA00BCBE46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B2F31A71B2526DA00BCBE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2F31A91B2526DA00BCBE46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B2F31AC1B2526DA00BCBE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B2F31B21B2526DA00BCBE46 /* Price Glance Apple WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Price Glance Apple WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2F31B71B2526DA00BCBE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2F31B81B2526DA00BCBE46 /* Price_Glance_Apple_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price_Glance_Apple_WatchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2F31971B2526DA00BCBE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2F31AF1B2526DA00BCBE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B2F31911B2526DA00BCBE46 = {
+			isa = PBXGroup;
+			children = (
+				3B2F319C1B2526DA00BCBE46 /* Price Glance Apple Watch */,
+				3B2F31B51B2526DA00BCBE46 /* Price Glance Apple WatchTests */,
+				3B2F319B1B2526DA00BCBE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2F319B1B2526DA00BCBE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F319A1B2526DA00BCBE46 /* Price Glance Apple Watch.app */,
+				3B2F31B21B2526DA00BCBE46 /* Price Glance Apple WatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2F319C1B2526DA00BCBE46 /* Price Glance Apple Watch */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F319F1B2526DA00BCBE46 /* AppDelegate.swift */,
+				3B2F31A41B2526DA00BCBE46 /* ViewController.swift */,
+				3B2F31A61B2526DA00BCBE46 /* Main.storyboard */,
+				3B2F31A91B2526DA00BCBE46 /* Images.xcassets */,
+				3B2F31AB1B2526DA00BCBE46 /* LaunchScreen.xib */,
+				3B2F31A11B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodeld */,
+				3B2F319D1B2526DA00BCBE46 /* Supporting Files */,
+			);
+			path = "Price Glance Apple Watch";
+			sourceTree = "<group>";
+		};
+		3B2F319D1B2526DA00BCBE46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F319E1B2526DA00BCBE46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B2F31B51B2526DA00BCBE46 /* Price Glance Apple WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F31B81B2526DA00BCBE46 /* Price_Glance_Apple_WatchTests.swift */,
+				3B2F31B61B2526DA00BCBE46 /* Supporting Files */,
+			);
+			path = "Price Glance Apple WatchTests";
+			sourceTree = "<group>";
+		};
+		3B2F31B61B2526DA00BCBE46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F31B71B2526DA00BCBE46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2F31991B2526DA00BCBE46 /* Price Glance Apple Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2F31BC1B2526DA00BCBE46 /* Build configuration list for PBXNativeTarget "Price Glance Apple Watch" */;
+			buildPhases = (
+				3B2F31961B2526DA00BCBE46 /* Sources */,
+				3B2F31971B2526DA00BCBE46 /* Frameworks */,
+				3B2F31981B2526DA00BCBE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Price Glance Apple Watch";
+			productName = "Price Glance Apple Watch";
+			productReference = 3B2F319A1B2526DA00BCBE46 /* Price Glance Apple Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B2F31B11B2526DA00BCBE46 /* Price Glance Apple WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2F31BF1B2526DA00BCBE46 /* Build configuration list for PBXNativeTarget "Price Glance Apple WatchTests" */;
+			buildPhases = (
+				3B2F31AE1B2526DA00BCBE46 /* Sources */,
+				3B2F31AF1B2526DA00BCBE46 /* Frameworks */,
+				3B2F31B01B2526DA00BCBE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2F31B41B2526DA00BCBE46 /* PBXTargetDependency */,
+			);
+			name = "Price Glance Apple WatchTests";
+			productName = "Price Glance Apple WatchTests";
+			productReference = 3B2F31B21B2526DA00BCBE46 /* Price Glance Apple WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2F31921B2526DA00BCBE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jay Ang";
+				TargetAttributes = {
+					3B2F31991B2526DA00BCBE46 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3B2F31B11B2526DA00BCBE46 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3B2F31991B2526DA00BCBE46;
+					};
+				};
+			};
+			buildConfigurationList = 3B2F31951B2526DA00BCBE46 /* Build configuration list for PBXProject "Price Glance Apple Watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B2F31911B2526DA00BCBE46;
+			productRefGroup = 3B2F319B1B2526DA00BCBE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2F31991B2526DA00BCBE46 /* Price Glance Apple Watch */,
+				3B2F31B11B2526DA00BCBE46 /* Price Glance Apple WatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2F31981B2526DA00BCBE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2F31A81B2526DA00BCBE46 /* Main.storyboard in Resources */,
+				3B2F31AD1B2526DA00BCBE46 /* LaunchScreen.xib in Resources */,
+				3B2F31AA1B2526DA00BCBE46 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2F31B01B2526DA00BCBE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2F31961B2526DA00BCBE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2F31A51B2526DA00BCBE46 /* ViewController.swift in Sources */,
+				3B2F31A31B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodeld in Sources */,
+				3B2F31A01B2526DA00BCBE46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2F31AE1B2526DA00BCBE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2F31B91B2526DA00BCBE46 /* Price_Glance_Apple_WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B2F31B41B2526DA00BCBE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2F31991B2526DA00BCBE46 /* Price Glance Apple Watch */;
+			targetProxy = 3B2F31B31B2526DA00BCBE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B2F31A61B2526DA00BCBE46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2F31A71B2526DA00BCBE46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2F31AB1B2526DA00BCBE46 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2F31AC1B2526DA00BCBE46 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2F31BA1B2526DA00BCBE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B2F31BB1B2526DA00BCBE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B2F31BD1B2526DA00BCBE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Price Glance Apple Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B2F31BE1B2526DA00BCBE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Price Glance Apple Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B2F31C01B2526DA00BCBE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Price Glance Apple WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Price Glance Apple Watch.app/Price Glance Apple Watch";
+			};
+			name = Debug;
+		};
+		3B2F31C11B2526DA00BCBE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Price Glance Apple WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Price Glance Apple Watch.app/Price Glance Apple Watch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2F31951B2526DA00BCBE46 /* Build configuration list for PBXProject "Price Glance Apple Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2F31BA1B2526DA00BCBE46 /* Debug */,
+				3B2F31BB1B2526DA00BCBE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2F31BC1B2526DA00BCBE46 /* Build configuration list for PBXNativeTarget "Price Glance Apple Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2F31BD1B2526DA00BCBE46 /* Debug */,
+				3B2F31BE1B2526DA00BCBE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B2F31BF1B2526DA00BCBE46 /* Build configuration list for PBXNativeTarget "Price Glance Apple WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2F31C01B2526DA00BCBE46 /* Debug */,
+				3B2F31C11B2526DA00BCBE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B2F31A11B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B2F31A21B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodel */,
+			);
+			currentVersion = 3B2F31A21B2526DA00BCBE46 /* Price_Glance_Apple_Watch.xcdatamodel */;
+			path = Price_Glance_Apple_Watch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B2F31921B2526DA00BCBE46 /* Project object */;
+}
